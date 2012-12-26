@@ -26,6 +26,8 @@
 
 #include "AquaticPrime.h"
 
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+
 static RSA *rsaKey;
 static __strong CFStringRef hash;
 static __strong CFMutableArrayRef blacklist;
